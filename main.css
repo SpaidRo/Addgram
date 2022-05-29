@@ -1,57 +1,31 @@
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Secular+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
     .background-1 {
         position: absolute;
         left: 0%;
         width: 100%;
         height: 40%;
         top: 0%;
-        background-color: rgb(143, 13, 143);
+        background-color: #C13584;
     }
     .image-topnav {
         position: absolute;
         left: 42%;
         width: 100px;
         height: 100px;
+        border-radius: 25%;
     }
     .title-topnav {
         color: white;
-        left: 31%;
+        left: 33%;
         position: absolute;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Fira Sans', sans-serif;
         top: 19%;
-    }
-    .text-info {
-        color: gray;
-        direction: rtl;
-        position: absolute;
-        top: 200px;
-        font-size: 30px;
-        margin: 5%;
-    }
-    .Button {
-        width: 25%;
-        height: 20%;
-        position: absolute;
-        top: 400px;
-        left: 40%;
-        border: 1px solid black;
-        background-color: transparent;
-        color: black;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    .Button:active {
-        width: 25%;
-        height: 20%;
-        position: absolute;
-        top: 400px;
-        left: 40%;
-        border: 1px solid black;
-        background-color: purple;
-        color: white;
     }
     .topnav {
         position: absolute;
-        top: 100%;
+        top: 150%;
         width: 100%;
         height: 10%;
         left: 0%;
@@ -60,9 +34,125 @@
     .texttopnav {
         color: black;
         position: absolute;
-        top: 98%;
+        top: 148%;
         left: 36%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .online-users {
+        border-radius: 50%;
+        background-color: rgb(18, 190, 18);
+        width: 20px;
+        height: 20px;
+        left: 2%;
+        position: absolute;
+        top: 230px;
+    }
+    .online-users-count {
+        font-family: 'Fredoka One', cursive;
+        left: 8%;
+        position: absolute;
+        top: 213px;
+        direction: ltr;
+        font-size: 15px;
+    }
+    .offline-users {
+        border-radius: 50%;
+        background-color: rgb(218, 12, 12);
+        width: 20px;
+        height: 20px;
+        left: 2%;
+        position: absolute;
+        top: 270px;
+    }
+    .offline-users-count {
+        font-family: 'Fredoka One', cursive;
+        left: 8%;
+        position: absolute;
+        top: 255px;
+        direction: ltr;
+        font-size: 15px;
+    }
+    .divmylink {
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 20%;
+        top: 298px;
+        background-color: rgb(250, 246, 241);
+    }
+    .mylink {
+        font-size: 20px;
+        font-family: 'Fredoka One', cursive;
+        position: absolute;
+        top: 290px;
+        left: 25%;
+        color: black;
+    }
+    .input {
+        position: absolute;
+        left: 30%;
+        top: 420px;
+        border-radius: 5%;
+    }
+    .button {
+        width: 35%;
+        height: 10%;
+        position: absolute;
+        left: 35%;
+        top: 470px;
+        background-color: transparent;
+        transition: all ease 0.30s;
+        animation: a1 infinite 5s;
+        border: none;
+        font-size: 15px;
+        font-family: 'Fredoka One', cursive;
+        cursor: pointer;
+        color: white;
+    }
+    .button2 {
+        width: 35%;
+        height: 10%;
+        position: absolute;
+        left: 35%;
+        top: 550px;
+        background-color: transparent;
+        transition: all ease 0.30s;
+        animation: a1 infinite 5s;
+        border: none;
+        font-size: 15px;
+        font-family: 'Fredoka One', cursive;
+        cursor: pointer;
+        color: white;
+    }
+    @keyframes a1 {
+        0% {
+            color: black;
+            background-color: transparent;
+        }
+        100% {
+            color: black;
+            background-color: #c05d95;
+        }
+    }
+    .gold {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20%;
+        top: 43%;
+    }
+    .countcoin {
+        position: absolute;
+        right: 5%;
+        top: 39%;
+        font-family: 'Fredoka One', cursive;
+    }
+    .imgads {
+        position: absolute;
+        top: 125%;
+        width: 100%;
+        height: 20%;
+        left: 0%;
     }
 }
 
@@ -76,55 +166,26 @@
         width: 100%;
         height: 40%;
         top: 0%;
-        background-color: rgb(143, 13, 143);
+        background-color: #C13584;
     }
     .image-topnav {
         position: absolute;
-        left: 45%;
+        top: -2%;
+        left: 42%;
         width: 100px;
         height: 100px;
+        border-radius: 25%;
     }
     .title-topnav {
         color: white;
-        left: 38%;
+        left: 33%;
         position: absolute;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Fira Sans', sans-serif;
         top: 19%;
-    }
-    .text-info {
-        color: gray;
-        direction: rtl;
-        position: absolute;
-        top: 200px;
-        font-size: 30px;
-        left: 30%;
-    }
-    .Button {
-        border-radius: 25%;
-        width: 10%;
-        height: 20%;
-        position: absolute;
-        top: 400px;
-        left: 40%;
-        border: 1px solid black;
-        background-color: transparent;
-        color: black;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    .Button:active {
-        border-radius: 25%;
-        width: 10%;
-        height: 20%;
-        position: absolute;
-        top: 400px;
-        left: 40%;
-        border: 1px solid black;
-        background-color: purple;
-        color: white;
     }
     .topnav {
         position: absolute;
-        top: 100%;
+        top: 150%;
         width: 100%;
         height: 10%;
         left: 0%;
@@ -133,9 +194,125 @@
     .texttopnav {
         color: black;
         position: absolute;
-        top: 98%;
-        left: 40%;
+        top: 148%;
+        left: 36%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .online-users {
+        border-radius: 50%;
+        background-color: rgb(18, 190, 18);
+        width: 20px;
+        height: 20px;
+        left: 2%;
+        position: absolute;
+        top: 230px;
+    }
+    .online-users-count {
+        font-family: 'Fredoka One', cursive;
+        left: 8%;
+        position: absolute;
+        top: 213px;
+        direction: ltr;
+        font-size: 15px;
+    }
+    .offline-users {
+        border-radius: 50%;
+        background-color: rgb(218, 12, 12);
+        width: 20px;
+        height: 20px;
+        left: 2%;
+        position: absolute;
+        top: 270px;
+    }
+    .offline-users-count {
+        font-family: 'Fredoka One', cursive;
+        left: 8%;
+        position: absolute;
+        top: 255px;
+        direction: ltr;
+        font-size: 15px;
+    }
+    .divmylink {
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 20%;
+        top: 298px;
+        background-color: rgb(250, 246, 241);
+    }
+    .mylink {
+        font-size: 20px;
+        font-family: 'Fredoka One', cursive;
+        position: absolute;
+        top: 290px;
+        left: 25%;
+        color: black;
+    }
+    .input {
+        position: absolute;
+        left: 30%;
+        top: 420px;
+        border-radius: 5%;
+    }
+    .button {
+        width: 35%;
+        height: 10%;
+        position: absolute;
+        left: 35%;
+        top: 470px;
+        background-color: transparent;
+        transition: all ease 0.30s;
+        animation: a1 infinite 5s;
+        border: none;
+        font-size: 15px;
+        font-family: 'Fredoka One', cursive;
+        cursor: pointer;
+        color: white;
+    }
+    .button2 {
+        width: 35%;
+        height: 10%;
+        position: absolute;
+        left: 35%;
+        top: 550px;
+        background-color: transparent;
+        transition: all ease 0.30s;
+        animation: a1 infinite 5s;
+        border: none;
+        font-size: 15px;
+        font-family: 'Fredoka One', cursive;
+        cursor: pointer;
+        color: white;
+    }
+    @keyframes a1 {
+        0% {
+            color: black;
+            background-color: transparent;
+        }
+        100% {
+            color: black;
+            background-color: #c05d95;
+        }
+    }
+    .gold {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20%;
+        top: 43%;
+    }
+    .countcoin {
+        position: absolute;
+        right: 5%;
+        top: 39%;
+        font-family: 'Fredoka One', cursive;
+    }
+    .imgads {
+        position: absolute;
+        top: 125%;
+        width: 100%;
+        height: 20%;
+        left: 0%;
     }
 }
 
@@ -149,55 +326,26 @@
         width: 100%;
         height: 40%;
         top: 0%;
-        background-color: rgb(143, 13, 143);
+        background-color: #C13584;
     }
     .image-topnav {
         position: absolute;
-        left: 45%;
+        top: 5%;
+        left: 42%;
         width: 100px;
         height: 100px;
+        border-radius: 25%;
     }
     .title-topnav {
         color: white;
-        left: 41%;
+        top: 20%;
+        left: 38%;
         position: absolute;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        top: 19%;
-    }
-    .text-info {
-        color: gray;
-        direction: rtl;
-        position: absolute;
-        top: 250px;
-        font-size: 30px;
-        left: 30%;
-    }
-    .Button {
-        border-radius: 25%;
-        width: 10%;
-        height: 20%;
-        position: absolute;
-        top: 440px;
-        left: 40%;
-        border: 1px solid black;
-        background-color: transparent;
-        color: black;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    .Button:active {
-        border-radius: 25%;
-        width: 10%;
-        height: 20%;
-        position: absolute;
-        top: 440px;
-        left: 40%;
-        border: 1px solid black;
-        background-color: purple;
-        color: white;
+        font-family: 'Fira Sans', sans-serif;
     }
     .topnav {
         position: absolute;
-        top: 100%;
+        top: 150%;
         width: 100%;
         height: 10%;
         left: 0%;
@@ -206,8 +354,110 @@
     .texttopnav {
         color: black;
         position: absolute;
-        top: 100%;
-        left: 40%;
+        top: 148%;
+        left: 36%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .online-users {
+        border-radius: 50%;
+        background-color: rgb(18, 190, 18);
+        width: 20px;
+        height: 20px;
+        left: 2%;
+        position: absolute;
+        top: 244px;
+    }
+    .online-users-count {
+        font-family: 'Fredoka One', cursive;
+        left: 5%;
+        position: absolute;
+        top: 231px;
+        direction: ltr;
+        font-size: 15px;
+    }
+    .offline-users {
+        border-radius: 50%;
+        background-color: rgb(218, 12, 12);
+        width: 20px;
+        height: 20px;
+        left: 2%;
+        position: absolute;
+        top: 270px;
+    }
+    .offline-users-count {
+        font-family: 'Fredoka One', cursive;
+        left: 5%;
+        position: absolute;
+        top: 255px;
+        direction: ltr;
+        font-size: 15px;
+    }
+    .divmylink {
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 20%;
+        top: 330px;
+        background-color: rgb(250, 246, 241);
+    }
+    .mylink {
+        font-size: 20px;
+        font-family: 'Fredoka One', cursive;
+        position: absolute;
+        top: 320px;
+        left: 38%;
+        color: black;
+    }
+    .input {
+        position: absolute;
+        left: 39%;
+        top: 458px;
+        border-radius: 5%;
+        height: 10%;
+    }
+    .button {
+        width: 35%;
+        height: 10%;
+        position: absolute;
+        left: 33%;
+        top: 570px;
+        background-color: transparent;
+        transition: all ease 0.30s;
+        animation: a1 infinite 5s;
+        border: none;
+        font-size: 15px;
+        font-family: 'Fredoka One', cursive;
+        cursor: pointer;
+        color: white;
+    }
+    @keyframes a1 {
+        0% {
+            color: black;
+            background-color: transparent;
+        }
+        100% {
+            color: black;
+            background-color: #c05d95;
+        }
+    }
+    .gold {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 11%;
+        top: 42%;
+    }
+    .countcoin {
+        position: absolute;
+        right: 5%;
+        top: 39%;
+        font-family: 'Fredoka One', cursive;
+    }
+    .imgads {
+        position: absolute;
+        top: 125%;
+        width: 100%;
+        height: 20%;
+        left: 0%;
     }
 }
