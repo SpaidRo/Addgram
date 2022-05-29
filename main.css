@@ -1,0 +1,213 @@
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .background-1 {
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 40%;
+        top: 0%;
+        background-color: rgb(143, 13, 143);
+    }
+    .image-topnav {
+        position: absolute;
+        left: 42%;
+        width: 100px;
+        height: 100px;
+    }
+    .title-topnav {
+        color: white;
+        left: 31%;
+        position: absolute;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        top: 19%;
+    }
+    .text-info {
+        color: gray;
+        direction: rtl;
+        position: absolute;
+        top: 200px;
+        font-size: 30px;
+        margin: 5%;
+    }
+    .Button {
+        width: 25%;
+        height: 20%;
+        position: absolute;
+        top: 400px;
+        left: 40%;
+        border: 1px solid black;
+        background-color: transparent;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .Button:active {
+        width: 25%;
+        height: 20%;
+        position: absolute;
+        top: 400px;
+        left: 40%;
+        border: 1px solid black;
+        background-color: purple;
+        color: white;
+    }
+    .topnav {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        height: 10%;
+        left: 0%;
+        background-color: rgb(238, 233, 233);
+    }
+    .texttopnav {
+        color: black;
+        position: absolute;
+        top: 98%;
+        left: 36%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+
+/*================= tablet ===============*/
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .background-1 {
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 40%;
+        top: 0%;
+        background-color: rgb(143, 13, 143);
+    }
+    .image-topnav {
+        position: absolute;
+        left: 45%;
+        width: 100px;
+        height: 100px;
+    }
+    .title-topnav {
+        color: white;
+        left: 38%;
+        position: absolute;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        top: 19%;
+    }
+    .text-info {
+        color: gray;
+        direction: rtl;
+        position: absolute;
+        top: 200px;
+        font-size: 30px;
+        left: 30%;
+    }
+    .Button {
+        border-radius: 25%;
+        width: 10%;
+        height: 20%;
+        position: absolute;
+        top: 400px;
+        left: 40%;
+        border: 1px solid black;
+        background-color: transparent;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .Button:active {
+        border-radius: 25%;
+        width: 10%;
+        height: 20%;
+        position: absolute;
+        top: 400px;
+        left: 40%;
+        border: 1px solid black;
+        background-color: purple;
+        color: white;
+    }
+    .topnav {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        height: 10%;
+        left: 0%;
+        background-color: rgb(238, 233, 233);
+    }
+    .texttopnav {
+        color: black;
+        position: absolute;
+        top: 98%;
+        left: 40%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+
+/*================= pc ===============*/
+
+@media screen and (min-width: 993px) and (max-width: 5280px) {
+    .background-1 {
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 40%;
+        top: 0%;
+        background-color: rgb(143, 13, 143);
+    }
+    .image-topnav {
+        position: absolute;
+        left: 45%;
+        width: 100px;
+        height: 100px;
+    }
+    .title-topnav {
+        color: white;
+        left: 41%;
+        position: absolute;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        top: 19%;
+    }
+    .text-info {
+        color: gray;
+        direction: rtl;
+        position: absolute;
+        top: 250px;
+        font-size: 30px;
+        left: 30%;
+    }
+    .Button {
+        border-radius: 25%;
+        width: 10%;
+        height: 20%;
+        position: absolute;
+        top: 440px;
+        left: 40%;
+        border: 1px solid black;
+        background-color: transparent;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .Button:active {
+        border-radius: 25%;
+        width: 10%;
+        height: 20%;
+        position: absolute;
+        top: 440px;
+        left: 40%;
+        border: 1px solid black;
+        background-color: purple;
+        color: white;
+    }
+    .topnav {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        height: 10%;
+        left: 0%;
+        background-color: rgb(238, 233, 233);
+    }
+    .texttopnav {
+        color: black;
+        position: absolute;
+        top: 100%;
+        left: 40%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
